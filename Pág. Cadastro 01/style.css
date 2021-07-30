@@ -9,17 +9,18 @@
 }
 
 body {
-    background: #1B2029;
+    background: #031a46;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     max-width: 100%;
     min-height: 100%;
     min-width: 100%;
+    padding: 1rem;
 }
 
 main {
-    width: 50vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,9 +57,9 @@ main .alternative {
 }
 
 main .alternative span {
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
     position: relative;
 }
 
@@ -69,7 +70,7 @@ main .alternative span::before, main .alternative span::after {
     width: 100px;
     bottom: 50%;
     right: 50px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgb(255, 255, 255);
 }
 
 main .alternative span::after {
@@ -89,7 +90,7 @@ main form label {
 
 main form label span {
     font-size: 1.1rem;
-    margin-top: 2rem;
+    margin-top: 0.3rem;
 }
 
 main form input {
@@ -108,21 +109,22 @@ main form input {
 main form input[type="submit"] {
     cursor: pointer;
     width: 50%;
-    margin-top: 4rem;
+    margin-top: 3rem;
     border: none;
     border-radius: 32px;
-    background: #6C63FF;
+    background: #050413;
     color: white;
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
+    
 }
 
 main form input[type="submit"]:hover {
-    background: #09055a;
+    background: #433ae4;
 }
 
 section.images {
-    width: 50vw;
+    width: 70vw;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -130,7 +132,7 @@ section.images {
 }
 
 section.images img {
-    width: 70%;
+    width: 86%;
 }
 
 
